@@ -1,0 +1,11 @@
+{
+  "version": "0.1.7",
+  "notes": "- 답이 끝나면 다음에 입력할 만한 말을 입력창에 흐리게 보여 줍니다. 입력창이 비어 있을 때 Tab을 누르면 채워지고, Enter로 보냅니다. 이 컴퓨터의 Vica 내장 모델이 만들며, 설정 → 에이전트 → Vica 내장 → 다음 입력 제안에서 끌 수 있습니다.\n- 설정 → 일반에 \"Vica 쓰는 동안 잠자기 막기\"를 더했습니다. 켜 두면 Vica가 켜져 있는 동안 화면보호기와 잠자기가 시작되지 않습니다. 보기 메뉴나 ⌘⇧A로도 켜고 끕니다.\n- 입력창의 `! 명령어`가 정상으로 끝나도 실패로 표시되던 문제를 고쳤습니다.",
+  "pub_date": "2026-11-08T08:25:58Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWR6U3ZaR3hLamhUenZoTm9TVWY3SkxiZkNndGMzUmlEbkZHSEdQbGdibEQzc1FHaWw1bzZtOWdGL2EzZE5wM0dUR2RITXNFMTZFOHlzcnJCWHpzUTVudG9mUUlyUmdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTI2MzI4CWZpbGU6VmljYS5hcHAudGFyLmd6CXZlcnNpb246MC4xLjcKSDFCakNVQXYzQVRvOElkZnY4UExLZkdNZFFQclVta2N3MzVQcTlWaGhwQWNjdFpJNmRKekQ4VXRWRVppd3p5REZueGExTGxDeFhhYUdhL1JqUzVNRFE9PQo=",
+      "url": "https://github.com/su-record/vica-releases/releases/download/v0.1.7/vica_0.1.7_aarch64.app.tar.gz"
+    }
+  }
+}
