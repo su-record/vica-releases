@@ -1,11 +1,11 @@
 {
-  "version": "0.1.7",
-  "notes": "- 답이 끝나면 다음에 입력할 만한 말을 입력창에 흐리게 보여 줍니다. 입력창이 비어 있을 때 Tab을 누르면 채워지고, Enter로 보냅니다. 이 컴퓨터의 Vica 내장 모델이 만들며, 설정 → 에이전트 → Vica 내장 → 다음 입력 제안에서 끌 수 있습니다.\n- 설정 → 일반에 \"Vica 쓰는 동안 잠자기 막기\"를 더했습니다. 켜 두면 Vica가 켜져 있는 동안 화면보호기와 잠자기가 시작되지 않습니다. 보기 메뉴나 ⌘⇧A로도 켜고 끕니다.\n- 입력창의 `! 명령어`가 정상으로 끝나도 실패로 표시되던 문제를 고쳤습니다.",
-  "pub_date": "2026-11-08T08:25:58Z",
+  "version": "0.1.8",
+  "notes": "- 설정 → 일하는 방식 → **새 코워크 만들기**: `/명령`과 제목을 정하고 하고 싶은 일을 말하면, Vica가 저장된 지식을 찾아본 뒤 어떻게 할지 제안하고 하나씩 물어보며 순서를 함께 만듭니다. 만들어진 흐름은 그림과 ▶ 데모로 보여 주고, 단계를 눌러 설명·빼기·추가·모델 변경을 요청할 수 있습니다. 템플릿(개발·글쓰기·영상 제작·조사 보고서)으로 시작해도 됩니다.\n- **Vica 내장 모델**: 외부 AI 연결 없이도 이 컴퓨터에서 도는 모델로 Vica를 쓸 수 있습니다. 이 PC에서 돌릴 수 있는 모델만 제작사 점수 순으로 보여 주고, 펼치면 어떤 모델인지·잘하는 일·약한 일을 설명합니다. Hugging Face 주소로 원하는 모델을 직접 추가할 수도 있습니다.\n- **스킬**: 채팅에서 만든 스킬과, 설정 → 스킬에서 링크나 md 파일로 등록한 스킬만 씁니다. 등록한 파일은 Vica가 쓸 수 있는 형태로 바꿔 둡니다. 다른 앱이 설치한 스킬은 Vica 대화에서 쓰지 않습니다.\n- **알림**: 알림이 저절로 사라지지 않고 확인을 눌러야 닫힙니다. 오류와 주의는 눈에 띄게 보이고, 같은 알림이 반복되면 횟수로 묶입니다. 푸시처럼 git이 실패하면 원인과 할 일을 알아들을 수 있는 말로 알려 줍니다.",
+  "pub_date": "2026-11-09T07:50:30Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWR6U3ZaR3hLamhUenZoTm9TVWY3SkxiZkNndGMzUmlEbkZHSEdQbGdibEQzc1FHaWw1bzZtOWdGL2EzZE5wM0dUR2RITXNFMTZFOHlzcnJCWHpzUTVudG9mUUlyUmdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTI2MzI4CWZpbGU6VmljYS5hcHAudGFyLmd6CXZlcnNpb246MC4xLjcKSDFCakNVQXYzQVRvOElkZnY4UExLZkdNZFFQclVta2N3MzVQcTlWaGhwQWNjdFpJNmRKekQ4VXRWRVppd3p5REZueGExTGxDeFhhYUdhL1JqUzVNRFE9PQo=",
-      "url": "https://github.com/su-record/vica-releases/releases/download/v0.1.7/vica_0.1.7_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWR6U3ZaR3hLam5NQUoyMHpDZnVCRitiMEtjVkZOV1F6VzM0NVFBbVU3a0QzUG1OdXUxUHozaEpyaUR3ZzBkdDZhN1Ura2k1eElFOE5TdGcwVlY3cW1QUWRWbCswYXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjEwNTk2CWZpbGU6VmljYS5hcHAudGFyLmd6CXZlcnNpb246MC4xLjgKRGJPV1pZbFJBcjVmVnhGWFFyTVdMOHNuTEFobWJ4ZllEaTUxdVUxWFRtT3NIQ01ZVFFUbCtPcDJqck1pOXFvMnEyaU5IOC9oZzVhdXlSUTl1T015QlE9PQo=",
+      "url": "https://github.com/su-record/vica-releases/releases/download/v0.1.8/vica_0.1.8_aarch64.app.tar.gz"
     }
   }
 }
