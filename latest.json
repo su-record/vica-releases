@@ -1,11 +1,11 @@
 {
-  "version": "0.1.9",
-  "notes": "- LG EXAONE API: 설정 → 에이전트에서 키를 연결해 K-EXAONE 2.5의 텍스트 대화와 도구 호출을 쓸 수 있습니다.\n- 14가지 화면 테마: 라이트·다크와 윈도우·맥 계열 테마를 고를 수 있습니다. 모든 테마의 생각 깊이 막대에서 번지는 효과를 없앴습니다.\n- 사용량과 채팅: 사용량 패널과 빈 채팅 시작 화면을 정리하고, 답변 표시·터미널 갱신·저장 작업을 줄였습니다.\n- Git과 업데이트: 입력창 아래 Git 메뉴에서 커밋 작성자를 확인·수정할 수 있습니다. 자동 커밋 스위치와 업데이트 오류 표시를 고쳤습니다.",
-  "pub_date": "2026-11-10T05:00:20Z",
+  "version": "0.1.10",
+  "notes": "- Finder에서 보기: 오른쪽 파일 목록에서 파일이나 폴더를 우클릭하면 Finder에서 선택된 채로 열 수 있습니다.\n- Muse Code 업데이트: 설정 → 에이전트의 업데이트가 터미널 탭을 열지 않고 백그라운드에서 진행됩니다.\n- 설정 열기와 뒤로 가기: 설정이 누르는 즉시 열리고, 뒤로 가기를 누르면 설정이 다시 열리던 문제를 고쳤습니다.\n- 글라스 테마 시작 화면: 카드 모양이 깨지고 뒤의 터미널 안내가 비치던 문제를 고쳤습니다.\n- 회사 로고: LG EXAONE·GLM·DeepSeek 같은 API 연결의 답변에 터미널 아이콘 대신 회사 로고가 나옵니다.",
+  "pub_date": "2026-11-10T07:03:47Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWR6U3ZaR3hLam91a1B3UUp2SHZMcWxxTzNaOVZVVlJHQUpOTGtuNXBQMndnU3d5djlab2h0N2EyN0Z5UjIvMjZHWmlzMmJLRjVWR0t6akZ5U3VEU0dtWHFOaFBFSHdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Mjg2NzkxCWZpbGU6VmljYS5hcHAudGFyLmd6CXZlcnNpb246MC4xLjkKREIrQVdXUG1jcEFpYis0ZktsTm04S3dBWjUxM1hxM004eXlUcW81WnFZbm9CNndTendhUFRsUUU3VEhIRjRyZUtrbTBDeTZkSW93OXUxaHhud2p3QVE9PQo=",
-      "url": "https://github.com/su-record/vica-releases/releases/download/v0.1.9/vica_0.1.9_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWR6U3ZaR3hLamtFaG5CN3dkSHZ1eS9ZK3JQUkYxQXFwKzA1NENidlhYNXgzZ1ppWFFvMFRTam1mellZTWtGNkZpUlJ5eExKaldwTndZenRZbGxrTW5nMkUwcGRobHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Mjk0MTc1CWZpbGU6VmljYS5hcHAudGFyLmd6CXZlcnNpb246MC4xLjEwCkJXRlFiMS9peUpKV2xaRURtZ0t5TjdjZzRQekkyREhJWmRYbjNZampXbHhWV1dPUWd3b1dUZUpZY0ppTUxhUWZucmFWTXNhZ2ZBNDhOeUtRdGFpMEFnPT0K",
+      "url": "https://github.com/su-record/vica-releases/releases/download/v0.1.10/vica_0.1.10_aarch64.app.tar.gz"
     }
   }
 }
