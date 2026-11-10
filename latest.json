@@ -1,11 +1,11 @@
 {
-  "version": "0.1.10",
-  "notes": "- Finder에서 보기: 오른쪽 파일 목록에서 파일이나 폴더를 우클릭하면 Finder에서 선택된 채로 열 수 있습니다.\n- Muse Code 업데이트: 설정 → 에이전트의 업데이트가 터미널 탭을 열지 않고 백그라운드에서 진행됩니다.\n- 설정 열기와 뒤로 가기: 설정이 누르는 즉시 열리고, 뒤로 가기를 누르면 설정이 다시 열리던 문제를 고쳤습니다.\n- 글라스 테마 시작 화면: 카드 모양이 깨지고 뒤의 터미널 안내가 비치던 문제를 고쳤습니다.\n- 회사 로고: LG EXAONE·GLM·DeepSeek 같은 API 연결의 답변에 터미널 아이콘 대신 회사 로고가 나옵니다.",
-  "pub_date": "2026-11-10T07:03:47Z",
+  "version": "0.1.11",
+  "notes": "- 컴퓨터 유즈, 앱 실행 확인: 앱을 열면 실제로 실행되고 창이 뜰 때까지 확인한 뒤 다음 단계로 넘어갑니다. 앱이 실행 중인지, 설치만 되어 있는지도 구분합니다.\n- 컴퓨터 유즈, 화면 글자로 조작: 버튼 구조가 보이지 않는 창(미러링된 휴대폰, 원격 화면, 캔버스)은 화면의 글자를 읽어 그 글자를 누릅니다.\n- 컴퓨터 유즈, 파일 끌어다 놓기: Finder의 파일을 다른 앱 창에 끌어다 놓아 첨부하거나 올릴 수 있습니다. 놓기 전에 파일 이름과 함께 확인을 받습니다.\n- 컴퓨터 유즈, 더 빠른 화면 읽기: 앱 화면을 읽는 시간이 절반가량으로 줄었습니다.\n- Claude 모델 버전: Claude 별칭이 새 버전을 따라가고, 화면에 실제 버전이 표시됩니다.",
+  "pub_date": "2026-11-10T17:03:21Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWR6U3ZaR3hLamtFaG5CN3dkSHZ1eS9ZK3JQUkYxQXFwKzA1NENidlhYNXgzZ1ppWFFvMFRTam1mellZTWtGNkZpUlJ5eExKaldwTndZenRZbGxrTW5nMkUwcGRobHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Mjk0MTc1CWZpbGU6VmljYS5hcHAudGFyLmd6CXZlcnNpb246MC4xLjEwCkJXRlFiMS9peUpKV2xaRURtZ0t5TjdjZzRQekkyREhJWmRYbjNZampXbHhWV1dPUWd3b1dUZUpZY0ppTUxhUWZucmFWTXNhZ2ZBNDhOeUtRdGFpMEFnPT0K",
-      "url": "https://github.com/su-record/vica-releases/releases/download/v0.1.10/vica_0.1.10_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWR6U3ZaR3hLampUK0xHNHRrWVIxeHBsT0M3MThXUlpucGdvWWlwc3pvMHNwYUtRUlBXU3VoVlZHd1Y1UmUwbEo5dUFzK1YySUlham5mZC9jQlNBeHBqMVN3eXROK3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzMwMTY0CWZpbGU6VmljYS5hcHAudGFyLmd6CXZlcnNpb246MC4xLjExClFhZnJySWJlY2szdzVXR1J4WHExZkZrSzZSaDBlNDZjMitDdDFiSFlnenZXaDVwcUhBRVczajF2RmJpcE1pL2kxd0tPeUxDcmdpR0tCMGNQQ01BU0N3PT0K",
+      "url": "https://github.com/su-record/vica-releases/releases/download/v0.1.11/vica_0.1.11_aarch64.app.tar.gz"
     }
   }
 }
