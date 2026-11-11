@@ -1,11 +1,11 @@
 {
-  "version": "0.1.11",
-  "notes": "- 컴퓨터 유즈, 앱 실행 확인: 앱을 열면 실제로 실행되고 창이 뜰 때까지 확인한 뒤 다음 단계로 넘어갑니다. 앱이 실행 중인지, 설치만 되어 있는지도 구분합니다.\n- 컴퓨터 유즈, 화면 글자로 조작: 버튼 구조가 보이지 않는 창(미러링된 휴대폰, 원격 화면, 캔버스)은 화면의 글자를 읽어 그 글자를 누릅니다.\n- 컴퓨터 유즈, 파일 끌어다 놓기: Finder의 파일을 다른 앱 창에 끌어다 놓아 첨부하거나 올릴 수 있습니다. 놓기 전에 파일 이름과 함께 확인을 받습니다.\n- 컴퓨터 유즈, 더 빠른 화면 읽기: 앱 화면을 읽는 시간이 절반가량으로 줄었습니다.\n- Claude 모델 버전: Claude 별칭이 새 버전을 따라가고, 화면에 실제 버전이 표시됩니다.",
-  "pub_date": "2026-11-10T17:03:21Z",
+  "version": "0.1.12",
+  "notes": "- 화면이 덜 흔들립니다: 답변이 진행되는 동안 읽던 위치가 처음으로 돌아가거나 깜빡이던 문제를 고쳤습니다. 브레인스토밍·코워크에서 펼친 답변, 대화 전체, 설정, 사이드바, 팝업에서 스크롤과 입력 중인 글자가 유지됩니다.\n- 입력창 위 줄을 직접 고르기: 브레인스토밍·코워크로 시작해 최대 5개까지 +로 더하고, 버튼을 오른쪽 클릭해 옮기거나 뺄 수 있습니다.\n- 입력창 주변 정리: 대화가 입력창 뒤로 비치지 않고 그 위에서 서서히 옅어집니다. 대화와 입력 글자 크기를 조금 줄였습니다.\n- 터미널 단축키: 터미널 열기가 Ctrl+J로 바뀌었습니다.\n- 그 밖의 수정: 에이전트가 고친 파일이 탐색기와 열어 둔 파일에 바로 반영되고, \"연결 끊김\" 알림은 다시 연결되면 스스로 닫힙니다.",
+  "pub_date": "2026-11-11T07:44:44Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWR6U3ZaR3hLampUK0xHNHRrWVIxeHBsT0M3MThXUlpucGdvWWlwc3pvMHNwYUtRUlBXU3VoVlZHd1Y1UmUwbEo5dUFzK1YySUlham5mZC9jQlNBeHBqMVN3eXROK3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzMwMTY0CWZpbGU6VmljYS5hcHAudGFyLmd6CXZlcnNpb246MC4xLjExClFhZnJySWJlY2szdzVXR1J4WHExZkZrSzZSaDBlNDZjMitDdDFiSFlnenZXaDVwcUhBRVczajF2RmJpcE1pL2kxd0tPeUxDcmdpR0tCMGNQQ01BU0N3PT0K",
-      "url": "https://github.com/su-record/vica-releases/releases/download/v0.1.11/vica_0.1.11_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWR6U3ZaR3hLaml2ZWlVT25zYjJ0R2Fndmd0bjQ5Z0x2Z1dSSzFwOFgyNGwrVjlGaFJsbnUzV0hRY2txMUd3WGpqWGZiNy9iZnFFTXNiejVtazRUNGNyeDZFZVdCZkFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzgzMDQ5CWZpbGU6VmljYS5hcHAudGFyLmd6CXZlcnNpb246MC4xLjEyCmZkMUVjNGcxZ2lIVmpsU2xIUGxlQjVrMVF3djcyNmQ3alh0c1Zsd2pKSXBmZmNrZ0ZzWnlNTzQxcEFQRksvN1NQbHAwV2Z1U2pGekdidG1PaDV2cENRPT0K",
+      "url": "https://github.com/su-record/vica-releases/releases/download/v0.1.12/vica_0.1.12_aarch64.app.tar.gz"
     }
   }
 }
