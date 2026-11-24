@@ -8,8 +8,8 @@ Vica is a desktop coding agent. Ask it to work on a project, follow its progress
 
 | Platform | Current release | Install |
 | --- | --- | --- |
-| macOS · Apple Silicon | [0.1.9](https://github.com/su-record/vica-releases/releases/tag/v0.1.9) | Download `Vica_0.1.9_aarch64.dmg` and move Vica to Applications. The app is Apple signed and notarized. |
-| Windows · x64 beta | [0.1.7 MSI](https://github.com/su-record/vica-releases/releases/download/v0.1.7/Vica_0.1.7_x64_ko-KR.msi) | Run the MSI on Windows 10 1809 or later. The installer is not code signed. It downloads WebView2 if needed. |
+| macOS · Apple Silicon | [0.2.3](https://github.com/su-record/vica-releases/releases/tag/v0.2.3) | Download `Vica_0.2.3_aarch64.dmg` and move Vica to Applications. The app is Apple signed and notarized. |
+| Windows · x64 beta | [0.2.4 MSI](https://github.com/su-record/vica-releases/releases/download/v0.2.4/Vica_0.2.4_x64_ko-KR.msi) | Run the MSI on Windows 10 1809 or later. The installer is not code signed. It downloads WebView2 if needed. |
 
 The Windows beta may differ from the latest Mac version. Installed apps check for updates through their platform's update channel. There is no public Linux installer in this repository.
 
