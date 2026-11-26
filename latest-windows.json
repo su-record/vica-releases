@@ -1,15 +1,15 @@
 {
-  "version": "0.2.6",
-  "notes": "- 음성 입력과 통화가 따로 있습니다. 입력창의 마이크를 누르면 말을 듣고, 다시 누르면 받아써 입력창에 넣습니다. 전화 모양 단추는 실시간 통화입니다. ChatGPT 로그인이나 OpenAI·Google·ElevenLabs 키가 있으면 쓸 수 있습니다.\n- 설정이 '모델 등록'과 '모델 사용'으로 나뉩니다. 에이전트 페이지에서는 로그인·API 키·이 컴퓨터의 모델을 등록하고, 새 '모델 사용' 페이지에서 채팅·판단·로컬·기타(이미지·음성·받아쓰기·동영상 등) 용도마다 쓸 모델을 고릅니다. Seedance와 ElevenLabs 키도 연결할 수 있습니다.\n- API 키로 쓸 수 있는 모델을 실제로 불러 보고 종류별로 보여 줍니다. 대화·판단·음성·임베딩·이미지·검수 모델을 나눠 보이고, ChatGPT 로그인으로 되는 모델은 로그인 중에 키 목록에서 뺍니다. 대화 모델은 최신 세대만 보입니다. OpenAI 판단 모델은 ChatGPT 로그인만으로도 쓸 수 있습니다.\n- 채팅이 지금 시각을 압니다. 요청마다 보낸 시각을 함께 알려 \"이번 주말\" 같은 질문에 지난 정보로 답하지 않습니다. 답할 내용이 요청 안에 이미 있으면 도구를 쓰지 않고 바로 답합니다.\n- 대화창에 API 키를 붙여 넣으면 보내기 전에 묻습니다. 키를 가리고 보낼 수 있습니다.\n- 첨부 문서를 Claude Code·Codex에 맡길 때 글 사본을 함께 넘깁니다. PDF·워드·파워포인트·엑셀·한글 문서의 글을 먼저 읽게 해 더 빨리 읽습니다. 비카 자체 에이전트는 프로젝트의 .claude/rules와 .claude/CLAUDE.md도 읽습니다.\n- 채팅 화면이 더 잘 그려집니다. 모델이 흔히 틀리는 화면 형식을 바로잡아 그립니다. 자체 AI가 질문하려다 \"invalid question run id\"로 끝나던 문제도 고쳤습니다.",
-  "pub_date": "2026-11-26T04:28:16Z",
+  "version": "0.2.8",
+  "notes": "- 막연한 만들기 요청을 먼저 다시 짜 줍니다. \"이런 거 만들고 싶어\"처럼 범위가 흐린 요청이면 답을 짧은 다시 짜기로 시작합니다: 가능한 문제 후보, 그 분야에서 쓰는 용어, 정할 것, 그 용어로 다시 쓴 요청. 판단은 원래 하던 요청 나누기와 함께 해서 응답이 느려지지 않습니다.\n- /reframe을 바로 쓸 수 있습니다. 하려는 일의 전문 용어와 이웃 분야의 비슷한 사례를 출처와 함께 짚고, 설명을 그 용어로 다시 써 줍니다.\n- 스킬 뒤에 붙인 글이 사라지지 않습니다. /스킬이름 뒤에 적은 글이 함께 전달되고, 새 대화 제목이 스킬 본문으로 잡히던 문제도 고쳤습니다.",
+  "pub_date": "2026-11-26T15:44:04Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVScFBqSTJ4UnVGdVJ1b2RpdmpHYUI4NEd1MHprZXU4VEtiM3B6empWV0FMNDBDZlVqYUovdmY2RmJRUUpwaTY3eVIvVHJtZEhlNkEyU0s1b0xmM0lzOHQvZzhQN1pZc0FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjY3Mjk2CWZpbGU6VmljYV8wLjIuNl94NjRfa28tS1IubXNpCXZlcnNpb246MC4yLjYKd1dWRUk4MWRkRGp0WDA1U0dubVNyVWQ5RnFsL2pQOERTOUI3MVZrbERsdW1nbW9GTXRKQ1R4Z2FRTzJQMVlTbExKeGNDSzhCL2lNckxaTjFoNkFWQnc9PQo=",
-      "url": "https://github.com/su-record/vica-releases/releases/download/v0.2.6/Vica_0.2.6_x64_ko-KR.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVScFBqSTJ4UnVGdVpUc01ZWTZHYTA2Y2tKb2RCUm82VWRVK25DODJUTXhITTJ1bExTZlM5S3Bza0xKT1FTUUVid2ViS3dsOUZqK0RyS2gzZjg3SjVlY1did2RGWG5FZGdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzA3ODQ0CWZpbGU6VmljYV8wLjIuOF94NjRfa28tS1IubXNpCXZlcnNpb246MC4yLjgKRHpZa0gwbk1RdkpCaFZJVjFoVkcxbTc3aHJWeEovd2ZSU0ZvNUlVeGtzV2o1SmVSVnpDOFlUQ3RVbmEzVDV6dkhnQzBDUkxxb2Z2MTFYbHNoUXNSQmc9PQo=",
+      "url": "https://github.com/su-record/vica-releases/releases/download/v0.2.8/Vica_0.2.8_x64_ko-KR.msi"
     },
     "windows-x86_64-msi": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVScFBqSTJ4UnVGdVJ1b2RpdmpHYUI4NEd1MHprZXU4VEtiM3B6empWV0FMNDBDZlVqYUovdmY2RmJRUUpwaTY3eVIvVHJtZEhlNkEyU0s1b0xmM0lzOHQvZzhQN1pZc0FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjY3Mjk2CWZpbGU6VmljYV8wLjIuNl94NjRfa28tS1IubXNpCXZlcnNpb246MC4yLjYKd1dWRUk4MWRkRGp0WDA1U0dubVNyVWQ5RnFsL2pQOERTOUI3MVZrbERsdW1nbW9GTXRKQ1R4Z2FRTzJQMVlTbExKeGNDSzhCL2lNckxaTjFoNkFWQnc9PQo=",
-      "url": "https://github.com/su-record/vica-releases/releases/download/v0.2.6/Vica_0.2.6_x64_ko-KR.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVScFBqSTJ4UnVGdVpUc01ZWTZHYTA2Y2tKb2RCUm82VWRVK25DODJUTXhITTJ1bExTZlM5S3Bza0xKT1FTUUVid2ViS3dsOUZqK0RyS2gzZjg3SjVlY1did2RGWG5FZGdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzA3ODQ0CWZpbGU6VmljYV8wLjIuOF94NjRfa28tS1IubXNpCXZlcnNpb246MC4yLjgKRHpZa0gwbk1RdkpCaFZJVjFoVkcxbTc3aHJWeEovd2ZSU0ZvNUlVeGtzV2o1SmVSVnpDOFlUQ3RVbmEzVDV6dkhnQzBDUkxxb2Z2MTFYbHNoUXNSQmc9PQo=",
+      "url": "https://github.com/su-record/vica-releases/releases/download/v0.2.8/Vica_0.2.8_x64_ko-KR.msi"
     }
   }
 }
