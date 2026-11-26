@@ -1,11 +1,11 @@
 {
-  "version": "0.2.7",
-  "notes": "- ondo와 연결됩니다. ondo(덮개를 닫아도 맥을 깨워 두고 온도와 배터리를 지켜보는 메뉴바 앱)가 있으면 채팅에서 \"덮개 닫고 2시간 깨워 둬\", \"지금 CPU 온도 알려줘\"처럼 말해 ondo를 쓸 수 있습니다.\n- '덮개를 닫아도 작업 계속'을 ondo가 지킵니다. ondo가 있으면 관리자 암호를 묻지 않고, 너무 뜨거워지거나 배터리가 부족하면 ondo가 풀고 재웁니다. ondo에서 직접 켠 깨어있기는 Vica가 건드리지 않습니다.\n- ondo가 없으면 설정에서 안내합니다. 설정 → 일반의 덮개 항목에 'ondo 받기' 단추가 생깁니다.",
-  "pub_date": "2026-11-26T11:19:05Z",
+  "version": "0.2.8",
+  "notes": "- 막연한 만들기 요청을 먼저 다시 짜 줍니다. \"이런 거 만들고 싶어\"처럼 범위가 흐린 요청이면 답을 짧은 다시 짜기로 시작합니다: 가능한 문제 후보, 그 분야에서 쓰는 용어, 정할 것, 그 용어로 다시 쓴 요청. 판단은 원래 하던 요청 나누기와 함께 해서 응답이 느려지지 않습니다.\n- /reframe을 바로 쓸 수 있습니다. 하려는 일의 전문 용어와 이웃 분야의 비슷한 사례를 출처와 함께 짚고, 설명을 그 용어로 다시 써 줍니다.\n- 스킬 뒤에 붙인 글이 사라지지 않습니다. /스킬이름 뒤에 적은 글이 함께 전달되고, 새 대화 제목이 스킬 본문으로 잡히던 문제도 고쳤습니다.",
+  "pub_date": "2026-11-26T15:43:24Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWR6U3ZaR3hLanVhSzhONDZsRjlFVXNCYUNNOTdzZkYxTExtKzBOcEQzYVlnMko5SnEvSExxWmlrbUhVM1k2d0Y3Y2RXc3RDMXhyMDBkMHFvRFc0b0xJZTNQMHdjaEF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjkxODI0CWZpbGU6VmljYS5hcHAudGFyLmd6CXZlcnNpb246MC4yLjcKaVc1NVpGZU1sK0Z0djcvTjhKOGpmQzhhQjlDd1pUZ2hqbmJsN1NCMStjY3Z2YzBrRVh0VmtjWVJvZjFNaitDanc3MDJWSnVINEJyWW1Jc2ZTUXl0Qnc9PQo=",
-      "url": "https://github.com/su-record/vica-releases/releases/download/v0.2.7/vica_0.2.7_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWR6U3ZaR3hLam5xMEpyTytsck9wcmk2OVp1TXB0UzFvdENKZmErK1ZYb21xME1mTXBpQVVVaFFNUi84RnAzaW5XM0s3cWJPdlFueXBXT2U4UXVtVmlnZFdheFBxbEFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzA3NzY3CWZpbGU6VmljYS5hcHAudGFyLmd6CXZlcnNpb246MC4yLjgKeEZOcktmaWhweEc2NWNoRXRuUFoxZ25oVHNpWGJWN0hVSXJuTjFRZ3NCdDBycFRhVGJOdFJPOFNZZFdhQVIvc0dWaEZMSVE0NTg1NjV4c080WU1YQ3c9PQo=",
+      "url": "https://github.com/su-record/vica-releases/releases/download/v0.2.8/vica_0.2.8_aarch64.app.tar.gz"
     }
   }
 }
