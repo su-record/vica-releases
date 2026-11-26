@@ -1,11 +1,11 @@
 {
-  "version": "0.2.6",
-  "notes": "- 음성 입력과 통화가 따로 있습니다. 입력창의 마이크를 누르면 말을 듣고, 다시 누르면 받아써 입력창에 넣습니다. 전화 모양 단추는 실시간 통화입니다. ChatGPT 로그인이나 OpenAI·Google·ElevenLabs 키가 있으면 쓸 수 있습니다.\n- 설정이 '모델 등록'과 '모델 사용'으로 나뉩니다. 에이전트 페이지에서는 로그인·API 키·이 컴퓨터의 모델을 등록하고, 새 '모델 사용' 페이지에서 채팅·판단·로컬·기타(이미지·음성·받아쓰기·동영상 등) 용도마다 쓸 모델을 고릅니다. Seedance와 ElevenLabs 키도 연결할 수 있습니다.\n- API 키로 쓸 수 있는 모델을 실제로 불러 보고 종류별로 보여 줍니다. 대화·판단·음성·임베딩·이미지·검수 모델을 나눠 보이고, ChatGPT 로그인으로 되는 모델은 로그인 중에 키 목록에서 뺍니다. 대화 모델은 최신 세대만 보입니다. OpenAI 판단 모델은 ChatGPT 로그인만으로도 쓸 수 있습니다.\n- 채팅이 지금 시각을 압니다. 요청마다 보낸 시각을 함께 알려 \"이번 주말\" 같은 질문에 지난 정보로 답하지 않습니다. 답할 내용이 요청 안에 이미 있으면 도구를 쓰지 않고 바로 답합니다.\n- 대화창에 API 키를 붙여 넣으면 보내기 전에 묻습니다. 키를 가리고 보낼 수 있습니다.\n- 첨부 문서를 Claude Code·Codex에 맡길 때 글 사본을 함께 넘깁니다. PDF·워드·파워포인트·엑셀·한글 문서의 글을 먼저 읽게 해 더 빨리 읽습니다. 비카 자체 에이전트는 프로젝트의 .claude/rules와 .claude/CLAUDE.md도 읽습니다.\n- 채팅 화면이 더 잘 그려집니다. 모델이 흔히 틀리는 화면 형식을 바로잡아 그립니다. 자체 AI가 질문하려다 \"invalid question run id\"로 끝나던 문제도 고쳤습니다.",
-  "pub_date": "2026-11-26T06:00:08Z",
+  "version": "0.2.7",
+  "notes": "- ondo와 연결됩니다. ondo(덮개를 닫아도 맥을 깨워 두고 온도와 배터리를 지켜보는 메뉴바 앱)가 있으면 채팅에서 \"덮개 닫고 2시간 깨워 둬\", \"지금 CPU 온도 알려줘\"처럼 말해 ondo를 쓸 수 있습니다.\n- '덮개를 닫아도 작업 계속'을 ondo가 지킵니다. ondo가 있으면 관리자 암호를 묻지 않고, 너무 뜨거워지거나 배터리가 부족하면 ondo가 풀고 재웁니다. ondo에서 직접 켠 깨어있기는 Vica가 건드리지 않습니다.\n- ondo가 없으면 설정에서 안내합니다. 설정 → 일반의 덮개 항목에 'ondo 받기' 단추가 생깁니다.",
+  "pub_date": "2026-11-26T11:19:05Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWR6U3ZaR3hLampJM3FKZXBQZzdVRnhseWtTcHEyY09Sb0s4Z3JmN2JIQlgzZnc5MmtjQVNZZ0RDR2JmMG16NTMxWmltNWpKT0NUdytoam9WZFdsU21Zbm9hRWl1N3cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjcyNzQ0CWZpbGU6VmljYS5hcHAudGFyLmd6CXZlcnNpb246MC4yLjYKN2dMRWJOSHA3MFJSTis4VkIzRndDZmxFQmQ1clRvOVJlMVR5bnY2NGJ1WVFQb3lnek95VmY1WmRuUlJ3RmQ2MjlhK25WT2pUVmlDSXE3VjAveER1Qmc9PQo=",
-      "url": "https://github.com/su-record/vica-releases/releases/download/v0.2.6/vica_0.2.6_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWR6U3ZaR3hLanVhSzhONDZsRjlFVXNCYUNNOTdzZkYxTExtKzBOcEQzYVlnMko5SnEvSExxWmlrbUhVM1k2d0Y3Y2RXc3RDMXhyMDBkMHFvRFc0b0xJZTNQMHdjaEF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjkxODI0CWZpbGU6VmljYS5hcHAudGFyLmd6CXZlcnNpb246MC4yLjcKaVc1NVpGZU1sK0Z0djcvTjhKOGpmQzhhQjlDd1pUZ2hqbmJsN1NCMStjY3Z2YzBrRVh0VmtjWVJvZjFNaitDanc3MDJWSnVINEJyWW1Jc2ZTUXl0Qnc9PQo=",
+      "url": "https://github.com/su-record/vica-releases/releases/download/v0.2.7/vica_0.2.7_aarch64.app.tar.gz"
     }
   }
 }
