@@ -1,11 +1,11 @@
 {
-  "version": "0.2.9",
-  "notes": "- 일이 도는 중에 보낸 별개의 요청이 기다리지 않습니다. 판단 모델이 새 요청이 지금 일과 따로인지, 어느 일꾼(리서치·분석·개발·디버그·검토·UI·대화)이 맡을지 보고 쉬는 일꾼에게 바로 넘겨 함께 돌립니다. 이어지는 말이나 고침은 예전처럼 기다립니다.\n- 일꾼이 필요한 도구만 받습니다. 판단 모델이 일마다 웹·파일·명령·서비스 중 필요한 묶음을 골라 그 도구만 처음부터 싣습니다. /research 같은 명령 단계와 직접 고른 일꾼도 같습니다. 답만 쓰면 되는 차례는 도구 없이 돌아서 토큰이 줄었습니다.\n- 두 조사 결과를 빠르게 합칩니다. 조사자 둘이 필요한지도 판단 모델이 정하고, 두 보고서는 Claude Haiku가 새 세션에서 합칩니다(Claude가 없으면 먼저 끝난 조사자). 늦은 조사자는 먼저 끝난 쪽이 걸린 만큼만 기다립니다.\n- 잘못 뜨던 확인과 실패를 고쳤습니다. \"배포 날짜\"를 찾는 조사처럼 읽기만 하는 명령에 되돌리기 어려운 일이라는 확인 창이 뜨던 문제, 실제로 검색한 검증이 \"검증 근거가 부족해\"로 실패하던 문제를 고쳤습니다.\n- 모델 목록 갱신은 설정 > 모델 사용에 있습니다. 진행 단계 칩과 도구 줄의 긴 글자는 중간에서 잘리지 않고 …로 끝납니다.",
-  "pub_date": "2026-11-27T10:07:27Z",
+  "version": "0.2.10",
+  "notes": "- 느린 연결에서도 Claude 업데이트를 5분 만에 끊지 않습니다. Claude 새 판은 360MB쯤이라 느린 연결에서는 내려받기만 5분을 넘깁니다. 이제 30분까지 기다리고, 실패하면 \"Download timed out\"처럼 실제 이유를 알려 줍니다.\n- 내장 모델 받는 양이 멈춘 것처럼 보이지 않습니다. 받은 양을 0.77GB / 3.4GB처럼 소수 둘째 자리까지 보여 줘서, 내려받는 동안 숫자가 몇 초마다 바뀝니다.",
+  "pub_date": "2026-11-28T08:17:34Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWR6U3ZaR3hLamtaNklEcFY0eDBWNVJaa3lLaCtrQ2VpRHI1ZUZUeFBOZ1JRMVZJMGYzTzFXOXZwTVBDL21PWHhYdlpuaHArblJvVndHWFlORzlYVUxSTEdzb2tQeUFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Nzc0MDE2CWZpbGU6VmljYS5hcHAudGFyLmd6CXZlcnNpb246MC4yLjkKUGZsalcvU1JRVjRyeUUzWmdJd3dBVkpNaG9Jcm41Nkx6MWE0YUdOU0U3d3BjU2lYVnhmZE14YjNCYXFWakhKQkNyTDVUenFEa1JwdmR1SHRsM3hYQmc9PQo=",
-      "url": "https://github.com/su-record/vica-releases/releases/download/v0.2.9/vica_0.2.9_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaWR6U3ZaR3hLanM0Y2V1WEJwcG95UUlNUWNqczNXWHZUd05Mc1JXaGg4MUJMUFFuYWZpQTM2ck1aVENOZFdQd1ladzhNY2dUc1cyRG95WitvRFY3QmhOL3NQM0tSeUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODUzNzU5CWZpbGU6VmljYS5hcHAudGFyLmd6CXZlcnNpb246MC4yLjEwCnNSNW5CYng5R3N0UisxZDE3VmNlcXllZC8weHI1MHh2R2d1aXFuSnZCNDBCSmFiMjZlZzVSQ24rWlIxRHFnTC94RGF2S0RwTHAwUm1vRktObTNSckJ3PT0K",
+      "url": "https://github.com/su-record/vica-releases/releases/download/v0.2.10/vica_0.2.10_aarch64.app.tar.gz"
     }
   }
 }
